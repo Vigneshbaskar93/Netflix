@@ -21,13 +21,12 @@ const CrowdPleasersSliderBlurAll = () => {
 
   return (
     <div className="crowd-slider-BlurAllcontainer">
-      <h2 className='slider-track blur-active'>Crowd Pleasers</h2>
+      <h2 className='crowd-slider-BlurAllcontainer blur-active'>Crowd Pleasers</h2>
       <div className="slider-BlurAllwrapper">
         <div className="slider-BlurAlltrack blur-active">  {/* blur here */}
           {crowdPleasers.slice(index, index + 4).map((item, i) => (
             <div className="slider-itemBlurAll" key={i}>
               <img src={item.image} alt={item.title} className="slider-image" />
-              <p className="slider-title">{item.title}</p>
             </div>
           ))}
         </div>

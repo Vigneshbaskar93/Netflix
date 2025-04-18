@@ -1,59 +1,57 @@
 .netflix-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 5px 40px;
-    background-color: black;
-    border-bottom: 4px solid #141414;
-  }
-  
-  .logo-section img {
-    height: 35px;
-  
-  }
-  
-  .nav-section {
-    display: flex;
-    align-items: center;
-    gap: 20px;
-  }
-  
-  .nav-text {
-    color: #ffffff;
-    font-size: 14px;
-    letter-spacing: 1px;
-  }
-  
-  .join-btn {
-    background-color: #e50914;
-    color: white;
-    border: none;
-    width: 140px;
-    padding: 10px 16px;
-    font-weight: bold;
-    border-radius: 3px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
-  
-  .join-btn:hover {
-    background-color: #f40612;
-  }
-  
-  .sign-btn {
-    background: transparent;
-    border: 1px solid rgb(212, 204, 204);
-    color: white;
-    width: 100px;
-    font-weight: bold;
-    font-size: 14px;
-    padding: 8px 14px;
-    border-radius: 3px;
-    cursor: pointer;
-    transition: background-color 0.3s ease, color 0.3s ease;
-  }
-  
-  .sign-btn:hover {
-    background-color: rgb(65, 62, 62);
-  }
-  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 40px;
+  background-color: black;
+  border-bottom: 4px solid #141414;
+}
+
+.logo-section img {
+  height: 35px;
+}
+
+.nav-section {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.nav-text {
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+.join-btn {
+  background-color: #e50914;
+  color: white;
+  border: none;
+  width: 140px;
+  padding: 10px 16px;
+  font-weight: bold;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.join-btn:hover {
+  background-color: #f40612;
+}
+
+.sign-btn {
+  background: transparent;
+  border: 1px solid rgb(212, 204, 204);
+  color: white;
+  width: 100px;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 8px 14px;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.sign-btn:hover {
+  background-color: rgb(65, 62, 62);
+}
